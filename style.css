@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: cursive;
+    background: radial-gradient(circle at bottom, #0d1b2a, #1b263b, #0b0c10);
+    color: #000000;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Starry Sky Animation */
+#star-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 0;
+}
+
+/* Password Screen */
+#password-screen {
+    position: absolute; 
+    right: 0; 
+    top: 0; 
+    height: 100vh;
+    width: 30%;
+    color: #f6a53e;
+    z-index: 1; 
+    background: #ffffff;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.notes-password {
+    color: #f7cd7a;
+}
+
+/* Input fields */
+input {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    font-size: 15px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #f7cd7a;
+    color: #f6a53e;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    background-color: #f7cd7a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #f6a53e;
+}

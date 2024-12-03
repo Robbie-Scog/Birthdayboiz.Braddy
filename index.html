@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Starry background video -->
+    <video id="star-video" autoplay loop muted>
+        <source src="vids\starry.mp4" type="video/mp4">
+    </video>
+
+    <!-- Password Input Screen -->
+    <div id="password-screen">        
+        <img class="star-img" style="height: 15%; width: auto;" src="imgs\star.png">
+        <p class="notes-password" style="font-size: 14px;">Mật khẩu hong gồm kí hiệu đặc biệt hay dấu cách</p>
+        <input type="password" id="password-input" placeholder="Nhập chỗ này" />
+        <button id="submit-password">Ocee</button>
+        <p id="error-message"></p>
+        <img class="cat-img" style="height: 20%; width: auto;" src="imgs\cat.png">
+    </div>
+
+    <!-- Links to bcard.html (Initially hidden, shown only after correct password) -->
+    <div id="card-links" style="display: none;">
+    </div>
+</body>
+</html>
