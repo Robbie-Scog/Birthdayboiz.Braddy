@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birhtday Card</title>
+    <link rel="stylesheet" href="cardstyle.css">
+    <script defer src="cardscript.js"></script>
+</head>
+<body>
+            <div id="card-screen" class="hidden">        
+                <div class="card">
+                    <div class="card-page front" style="display: flex; flex-direction: column;">
+                        <img style="height: 300px;" src="imgs/flowers.jpg">
+                        <p>Touch to receive my love letter, my Loverman.</p>
+                    </div>
+                    <div class="card-page back">
+                        
+                        <div class="content">
+                            <img style="height: 200px;" src="imgs/blue-cake.jpg" >
+                         <p>Happy Birthday to the love of my life! Today is all about you, the incredible man who brings</p>
+                            <p>so much love and joy into my life. I just want you to know</p>
+                            <p>how much you mean to me and how deeply you are loved. Being with you feels like a dream I never want to wake up from.</p>
+                            <p>This year, I hope all your dreams come true and that we continue </p>
+                            <p>building a life filled with laughter, love, and endless adventures.</p>
+                            <p>I’m so lucky to have you, Braddy, and I’ll spend every day showing you just how much you mean to me.</p>
+                            <p> Now, rate this card:</p>   
+                            
+                            <div class="star-container" style="display: flex; gap: 20px; justify-content: center; align-items: center;">
+                                <!-- Fake Star: Disappears when clicked -->
+                                <div class="fake-star">
+                                    <img id="fake-star" style="height: 50px; cursor: pointer;" src="imgs/fake-star.png" onclick="hideFakeStar()">
+                                </div>
+                                
+                                <!-- Real Star: Redirects to flower.html when clicked -->
+                                <div class="real-star">
+                                    <img id="real-star" style="height: 50px; cursor: pointer;" src="imgs/real-star.png" onclick="redirectToFlower()">
+                                </div>  
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>   
+</body>
+</html>
