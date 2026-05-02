@@ -10,18 +10,17 @@ onload = () => {
     const poetryDiv = document.createElement('div');
     poetryDiv.classList.add('poetry');
     poetryDiv.innerHTML = `
-    <p style="margin-bottom: 80px; font-size: 16px;">A poem I found and I think it suits us...</p>
+    <p style="margin-bottom: 80px; font-size: 16px;">A poem I found:</p>
     <h2 class="poetry-heading" >Gardenia's Veil</h2>
     <p style="font-size: 20px">----- Annu2 -----</p>
-    <p>The stars above in endless night,</p>
-    <p>They light the world with silent might.</p>
-    <p>So too our dreams, a distant flight,</p>
-    <p style="margin-bottom: 50px;">Guiding us onward, out of sight</p>
-    <p>In darkened hours, a silent plea,</p>
+    <p>Splish Splash</p>
+    <p>Your opinion is trash.</p>
+    <p>Nah just kidding ich liebe dich!</p>
+    <p style="margin-bottom: 50px;"> <3 </p>
     <p>A flower left for none to see.</p>
     <p>Beneath the moon’s cold, watchful eye,</p>
-    <p style="margin-bottom: 80px;">Lovers hide, yet cannot lie...</p>
-    <p style="font-size: 16px;">That´s all, babe. There is still a physical gift for you waited to be opened.</p>
+    <p style="margin-bottom: 80px;">Love hides, yet cannot lie</p>
+    <p style="font-size: 16px;"> Alles Gute zum Geburtstag, Schatz....</p>
     `;
 
     // Append the poetry to the body
